@@ -37,10 +37,10 @@ def coordinates(userInput):
         col = int(col %3)
     return (row, col)
 
+#yay
+def isTaken(position):
 
-def isTaken(slot):
-
-    coordinates(slot)
+    coordinates(position)
 
     if board[row][col] != '-':
         
